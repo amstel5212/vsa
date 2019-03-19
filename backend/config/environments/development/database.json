@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds123584.mlab.com",
+        "port": "23584",
+        "database": "vsa",
+        "username": "ostolop",
+        "password": "passwd1"
+      },
+      "options": {
+        "authenticationDatabase": "vsa"
+      }
+    }
+  }
+}
